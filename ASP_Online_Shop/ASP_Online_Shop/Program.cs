@@ -7,7 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace Online_Shop_ASP
+namespace ASP_Online_Shop
 {
     public class Program
     {
@@ -32,7 +32,7 @@ namespace Online_Shop_ASP
                 //Console.WriteLine("Список объектов:");
                 //foreach (Product u in Products)
                 //{
-                //    MessageBox.Show($"{u.Id}.{u.Name} - {u.Cost}");
+                //    Console.WriteLine($"{u.Id}.{u.Name} - {u.Cost}");
                 //}
             }
         }

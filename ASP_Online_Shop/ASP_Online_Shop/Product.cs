@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Online_Shop_ASP
+namespace ASP_Online_Shop
 {
     public class Product
     {
