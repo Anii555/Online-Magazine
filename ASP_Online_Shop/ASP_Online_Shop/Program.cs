@@ -25,15 +25,6 @@ namespace ASP_Online_Shop
                 db.Products.Add(Product1);
                 db.Products.Add(Product2);
                 db.SaveChanges();
-                //Console.WriteLine("Объекты успешно сохранены");
-
-                // получаем объекты из бд и выводим на консоль
-                var Products = db.Products.ToList();
-                //Console.WriteLine("Список объектов:");
-                //foreach (Product u in Products)
-                //{
-                //    Console.WriteLine($"{u.Id}.{u.Name} - {u.Cost}");
-                //}
             }
         }
 
